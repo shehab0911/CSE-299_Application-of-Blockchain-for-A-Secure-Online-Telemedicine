@@ -39,12 +39,14 @@ Developer - \Rofiqul Alam Shehab
 - Can view their Appointments, booked by admin.
 - Can delete their Appointment, when doctor attended their appointment.
 
-### Patient
-- Create account for admit in hospital. Then Login (Approval required by hospital admin, Then only patient can login).
-- Can view assigned doctor's details like ( specialization, mobile, address).
-- Can view their booked appointment status (pending/confirmed by admin).
-- Can book appointments.(approval required by admin)
-- Can view/download Invoice pdf (Only when that patient is discharged by admin).
+# Patient
+1) Create an account for a hospital admission. Then sign in (Approval required by hospital admin, Then only patient can login).
+2) Access to allocated doctor's information, such as ( specialization, mobile, address).
+3) Can check the status of their scheduled appointment (pending/confirmed by admin).
+
+4) Appointments can be scheduled (Admin permission is necessary).
+
+5) Ability to view/download invoice pdf (Only when that patient is discharged by admin).
 
 ---
 
