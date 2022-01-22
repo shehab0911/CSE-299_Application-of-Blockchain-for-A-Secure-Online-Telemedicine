@@ -24,112 +24,46 @@ Developer - \Rofiqul Alam Shehab
 ![doctor snap](https://github.com/zaynnissan/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/video_calling.png)
 
 ---
-## Functions
-### Admin
-- Signup their account. Then Login (No approval Required).
-- Can register/view/approve/reject/delete doctor (approve those doctor who applied for job in their hospital).
-- Can admit/view/approve/reject/discharge patient (discharge patient when treatment is done).
-- Can Generate/Download Invoice pdf (Generate Invoice according to medicine cost, room charge, doctor charge and other charge).
-- Can view/book/approve Appointment (approve those appointments which is requested by patient).
+# THE WEBSITE HAS BEEN DEVELOPED WITH THE HELP OF FUNCTIONS.
 
-### Doctor
-- Apply for job in hospital. Then Login (Approval required by hospital admin, Then only doctor can login).
-- Can only view their patient details (symptoms, name, mobile ) assigned to that doctor by admin.
-- Can view their discharged(by admin) patient list.
-- Can view their Appointments, booked by admin.
-- Can delete their Appointment, when doctor attended their appointment.
+# ADMIN
 
-# Patient
+1) Create an account for them. Then sign in (No approval Required).
+2) Ability to register/view/approve/reject/delete doctor (approve those doctor who applied for job in their hospital).
+3) Able to admit/view/approve/reject/discharge a patient (discharge patient when treatment is done).
+4) Ability to generate/download invoices in pdf format (Generate Invoice according to medicine cost, room charge, doctor charge and other charge).
+5) Appointment viewing/booking/approval (approve those appointments which is requested by patient).
+
+# DOCTOR
+
+1) Fill out an application for a position at a hospital. Then Sign in.
+2) Only the patient details allocated to that doctor by admin can be viewed.
+3) Can see a list of their discharged patients.
+4) Can access their admin-booked appointments.
+5) When the doctor attends their appointment, they have the option to remove it.
+
+# PATIENT
+
 1) Create an account for a hospital admission. Then sign in (Approval required by hospital admin, Then only patient can login).
 2) Access to allocated doctor's information, such as ( specialization, mobile, address).
 3) Can check the status of their scheduled appointment (pending/confirmed by admin).
-
 4) Appointments can be scheduled (Admin permission is necessary).
-
 5) Ability to view/download invoice pdf (Only when that patient is discharged by admin).
 
 ---
 
-## HOW TO RUN THIS PROJECT
-- Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
-- Open Terminal and Execute Following Commands :
-```
-pip install django==3.0.5
-pip install django-widget-tweaks
-pip install xhtml2pdf
-```
-- Download This Project Zip Folder and Extract it
-- Move to project folder in Terminal. Then run following Commands :
-```
-py manage.py makemigrations
-py manage.py migrate
-py manage.py runserver
-```
-- Now enter following URL in Your Browser Installed On Your Pc
+# HOW TO RUN THIS PROJECT
+
+- Download and install Python (3.7.6) (When installing Python, don't forget to tick the Add to Path box.)
+- Run the following commands on a terminal:
+"' pip install django==3.0.5 pip install django-widget-tweaks django-widget-tweaks django-widget-tweaks django-widget-tweaks
+"'pip install xhtml2pdf"' - Download and Extract This Project Zip Folder
+- In Terminal, go to the project folder. Then execute the commands below:
+makemigrations.py "' py manage.py
+migrate.py py manage.py
+py manage.py runserver "' - Now type the following URL into your computer's browser.
 ```
 http://127.0.0.1:8000/
 ```
 
-## CHANGES REQUIRED FOR CONTACT US PAGE
-- In settins.py file, You have to give your email and password
-```
-EMAIL_HOST_USER = 'youremail@gmail.com'
-EMAIL_HOST_PASSWORD = 'your email password'
-EMAIL_RECEIVING_USER = 'youremail@gmail.com'
-```
-- Login to gmail through host email id in your browser and open following link and turn it ON
-```
-https://myaccount.google.com/lesssecureapps
-```
-## Drawbacks/LoopHoles
-- Any one can be Admin. There is no Approval required for admin account. So you can disable admin signup process and use any logic like creating superuser.
-- There should be at least one doctor in hospital before admitting patient. So first add doctor.
-- On update page of doctor/patient you must have to update password.
 
-
-# SimpleWebRTC Sample Talky App
-
-To get started, you will first need to edit `public/index.html` to set your API key.
-
-See the section marked `IMPORTANT SETUP`, and change the placeholder `YOUR_API_KEY` to be the API key you were provided. API KEY '492c9fa0a4b959099ceb1959'
-
-You can retrieve your API key by visiting [https://accounts.simplewebrtc.com](https://accounts.simplewebrtc.com).
-
-## Running
-
-1. `npm install`
-2. Edit `public/index.html` as described above.
-3. `npm start`
-4. Go to [https://localhost:8080/](https://localhost:8080)
-
-
-## Deploying to Static/Shared Hosting
-
-1. `npm install`
-2. Edit `public/index.html` as described above.
-3. `npm run build`
-4. Copy the contents of the `./dist` folder to your hosting location.
-5. Ensure your hosting location is served via HTTPS.
-
-
-## Sound Configuration
-
-Sound effects for peers joining/leaving, messages, and sound output testing can be configured.
-
-Put your audio files into the `/public` directory, and uncomment the desired `<meta />` tags in `/public/index.html`, setting the `content` attribute to the URL of the audio file:
-
-```html
-<meta name="simplewebrtc-sound-message-receive" content="/url-of-mp3-file" />
-<meta name="simplewebrtc-sound-message-send" content="/url-of-mp3-file" />
-<meta name="simplewebrtc-sound-peer-enter" content="/url-of-mp3-file" />
-<meta name="simplewebrtc-sound-peer-exit" content="/url-of-mp3-file" />
-<meta name="simplewebrtc-sound-test-output" content="/url-of-mp3-file" />
-```
-
-## Disclaimer
-This project is developed for demo purpose and it's not supposed to be used in real application.
-
-## Feedback
-Any suggestion and feedback is welcome. You can message me on facebook
-- [Contact on Facebook](https://fb.com/)
-- [Subscribe my Channel On Youtube](https://youtube.com/)
