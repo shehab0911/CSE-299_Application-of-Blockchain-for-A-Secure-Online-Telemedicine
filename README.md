@@ -1,5 +1,5 @@
 #  Blockchain in Secure Online Telemedicine System
-Developer - \Rofiqul Alam Shehab
+Developer --- Rofiqul Alam Shehab
 ---
 ## screenshots
 ### Homepage
