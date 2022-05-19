@@ -3,25 +3,25 @@ Developer --- Rofiqul Alam Shehab
 ---
 ## screenshots
 ### Homepage
-![homepage snap](https://github.com/zaynnissan/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/homepage.png)
+![homepage snap](https://github.com/shehab0911/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/homepage.png)
 ### Patient Registration
-![registration page snap](https://github.com/zaynnissan/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/patient_registration.png)
+![registration page snap](https://github.com/shehab0911/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/patient_registration.png)
 ### Patient Login
-![patient login](https://github.com/zaynnissan/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/patient_login.png)
+![patient login](https://github.com/shehab0911/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/patient_login.png)
 ### Patient Dashboard
-![patient dashboard snap](https://github.com/zaynnissan/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/patient_dashboard.png)
+![patient dashboard snap](https://github.com/shehab0911/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/patient_dashboard.png)
 ### Patient Payment
-![patient payment invoice snap](https://github.com/zaynnissan/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/invoice.png)
+![patient payment invoice snap](https://github.com/shehab0911/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/invoice.png)
 ### Doctor Dashboard
-![doctor dashboard snap](https://github.com/zaynnissan/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/admin_doctor.png)
+![doctor dashboard snap](https://github.com/shehab0911/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/admin_doctor.png)
 ### Admin Dashboard
-![admin dashboard snap](https://github.com/zaynnissan/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/admin_dashboard.png)
+![admin dashboard snap](https://github.com/shehab0911/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/admin_dashboard.png)
 ### Doctor Generates Prescription 
-![doctor prescription snap](https://github.com/zaynnissan/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/doctor_generate_prescription.png)
+![doctor prescription snap](https://github.com/shehab0911Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/doctor_generate_prescription.png)
 ### Patient Downloads Description
-![patient prescription snap](https://github.com/zaynnissan/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/prescription.png)
+![patient prescription snap](https://github.com/shehab0911Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/prescription.png)
 ### Doctor & Patient Make Video Call & Chatting
-![doctor snap](https://github.com/zaynnissan/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/video_calling.png)
+![doctor snap](https://github.com/shehab0911/Application-of-Blockchain-for-a-secure-online-telemedicine/blob/master/static/screenshots/video_calling.png)
 
 ---
 # THE WEBSITE HAS BEEN DEVELOPED WITH THE HELP OF FUNCTIONS.
